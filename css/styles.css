@@ -1,0 +1,104 @@
+body{
+	
+	background:#324b51;
+	
+}
+
+header {
+  background-color: #000;
+  text-align: center;
+  padding: 4px;
+  font-family: "Playwrite HU", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+header h1 {
+  font-size: 24px;
+  color: #fff;
+}
+
+header p {
+  font-size: 18px;
+  color: #f4bb93;
+}
+
+#about {
+  padding: 20px;
+  line-height: 1.6;
+  font-size: 18px;
+  background-color: #f4bb93;
+}
+
+#about h2 {
+  color: #f4bb93;
+  margin-bottom: 10px;
+}
+
+#skills {
+  background-color: #ba8560;
+  padding: 20px;
+}
+
+#skills ul {
+  list-style-type: square;
+  padding: 0;
+}
+
+#skills li {
+  padding: 5px;
+  margin: 5px;
+  display: inline-block;
+}
+
+#experience{
+	background-color: #ba8560;
+	padding: 5px;
+}
+
+#experience article {
+  border-bottom: 1px solid #95b0b7;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+
+}
+
+#experience h3, #experience p {
+  margin: 5px 0;
+}
+
+footer {
+  background-color:#95b0b7;
+  text-align: center;
+  padding: 20px;
+}
+
+footer a {
+  color: #324b51;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.exp_container {  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "col1 col2";
+}
+
+.col1 { grid-area: col1; }
+
+.col2 { grid-area: col2; }
